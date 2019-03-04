@@ -1,0 +1,8 @@
+2019-03-04 11:26:52 INFO  App2:14 - This is INFO message2
+2019-03-04 11:26:52 WARN  App2:15 - This is WARN message2
+2019-03-04 11:26:52 ERROR App2:16 - This is ERROR message2
+2019-03-04 11:26:54 FATAL App2:17 - This is FATAL message2
+2019-03-04 11:29:56 INFO  App2:15 - This is INFO message2
+2019-03-04 11:29:56 WARN  App2:16 - This is WARN message2
+2019-03-04 11:29:56 ERROR App2:17 - This is ERROR message2
+2019-03-04 11:29:57 FATAL App2:18 - This is FATAL message2

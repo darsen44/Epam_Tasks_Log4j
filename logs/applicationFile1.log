@@ -1,0 +1,12 @@
+2019-03-04 13:12:32 ERROR App2:17 - This is ERROR message2
+2019-03-04 13:12:32 FATAL App2:18 - This is FATAL message2
+2019-03-04 13:13:04 ERROR App2:17 - This is ERROR message2
+2019-03-04 13:13:06 FATAL App2:18 - This is FATAL message2
+2019-03-04 13:13:27 ERROR App2:17 - This is ERROR message2
+
+2019-03-04 13:13:29 FATAL App2:18 - This is FATAL message2
+
+2019-03-04 13:14:09 ERROR App2:17 - This is ERROR message2
+2019-03-04 13:14:11 FATAL App2:18 - This is FATAL message2
+2019-03-04 13:14:25 ERROR App2:17 - This is ERROR message2
+2019-03-04 13:14:27 FATAL App2:18 - This is FATAL message2

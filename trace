@@ -1,0 +1,87 @@
+2019-03-03 20:49:58,662 main DEBUG Initializing configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@589838eb
+2019-03-03 20:49:58,672 main DEBUG Installed 1 script engine
+2019-03-03 20:49:59,264 main DEBUG Oracle Nashorn version: 1.8.0_191, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2019-03-03 20:49:59,265 main DEBUG PluginManager 'Core' found 115 plugins
+2019-03-03 20:49:59,265 main DEBUG PluginManager 'Level' found 0 plugins
+2019-03-03 20:49:59,269 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-03-03 20:49:59,292 main TRACE TypeConverterRegistry initializing.
+2019-03-03 20:49:59,292 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2019-03-03 20:49:59,306 main DEBUG createProperty(name="filename", value="target/rolling/rollingtest.log")
+2019-03-03 20:49:59,306 main DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2019-03-03 20:49:59,315 main DEBUG configureSubstitutor(={filename=target/rolling/rollingtest.log}, Configuration(PropertiesConfig))
+2019-03-03 20:49:59,315 main DEBUG PluginManager 'Lookup' found 13 plugins
+2019-03-03 20:49:59,317 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2019-03-03 20:49:59,318 main DEBUG createLoggers(={})
+2019-03-03 20:49:59,319 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-03-03 20:49:59,323 main DEBUG createFilter(level="TRACE", onMatch="null", onMismatch="null")
+2019-03-03 20:49:59,324 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-03-03 20:49:59,335 main DEBUG PatternLayout$Builder(pattern="%m%n", PatternSelector=null, Configuration(PropertiesConfig), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-03-03 20:49:59,335 main DEBUG PluginManager 'Converter' found 42 plugins
+2019-03-03 20:49:59,337 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2019-03-03 20:49:59,386 main DEBUG ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%m%n), name="STDOUT", Configuration(PropertiesConfig), ThresholdFilter(TRACE))
+2019-03-03 20:49:59,387 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2019-03-03 20:49:59,387 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2019-03-03 20:49:59,388 main DEBUG createAppenders(={STDOUT})
+2019-03-03 20:49:59,389 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-03-03 20:49:59,390 main DEBUG createFilter(level="TRACE", onMatch="null", onMismatch="null")
+2019-03-03 20:49:59,390 main WARN No Root logger was configured, creating default ERROR-level Root logger with Console appender
+2019-03-03 20:49:59,391 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false-2
+2019-03-03 20:49:59,394 main DEBUG Configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@589838eb initialized
+2019-03-03 20:49:59,395 main DEBUG Starting configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@589838eb
+2019-03-03 20:49:59,395 main DEBUG Started configuration org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@589838eb OK.
+2019-03-03 20:49:59,397 main TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@3b95a09c...
+2019-03-03 20:49:59,397 main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2019-03-03 20:49:59,398 main TRACE DefaultConfiguration stopping root LoggerConfig.
+2019-03-03 20:49:59,398 main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2019-03-03 20:49:59,399 main TRACE DefaultConfiguration stopping remaining Appenders.
+2019-03-03 20:49:59,400 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2019-03-03 20:49:59,404 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2019-03-03 20:49:59,404 main DEBUG Appender DefaultConsole-1 stopped with status true
+2019-03-03 20:49:59,409 main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2019-03-03 20:49:59,409 main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2019-03-03 20:49:59,410 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3b95a09c OK
+2019-03-03 20:49:59,532 main TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@5b8dfcc1
+2019-03-03 20:49:59,532 main TRACE Reregistering context (1/1): '18b4aac2' org.apache.logging.log4j.core.LoggerContext@2f9f7dcf
+2019-03-03 20:49:59,535 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2'
+2019-03-03 20:49:59,536 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=StatusLogger'
+2019-03-03 20:49:59,537 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=ContextSelector'
+2019-03-03 20:49:59,537 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=*'
+2019-03-03 20:49:59,538 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=*'
+2019-03-03 20:49:59,538 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=AsyncAppenders,name=*'
+2019-03-03 20:49:59,539 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=AsyncLoggerRingBuffer'
+2019-03-03 20:49:59,540 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=*,subtype=RingBuffer'
+2019-03-03 20:49:59,542 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2
+2019-03-03 20:49:59,546 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=StatusLogger
+2019-03-03 20:49:59,548 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=ContextSelector
+2019-03-03 20:49:59,551 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=DefaultConsole-2
+2019-03-03 20:49:59,552 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=STDOUT
+2019-03-03 20:49:59,554 main TRACE Using default SystemClock for timestamps.
+2019-03-03 20:49:59,555 main TRACE Using DummyNanoClock for nanosecond timestamps.
+2019-03-03 20:49:59,556 main DEBUG Reconfiguration complete for context[name=18b4aac2] at URI /home/darsen/Documents/Epam/Log4j/target/classes/log4j2.properties (org.apache.logging.log4j.core.LoggerContext@2f9f7dcf) with optional ClassLoader: null
+2019-03-03 20:49:59,556 main DEBUG Shutdown hook enabled. Registering a new one.
+2019-03-03 20:49:59,558 main DEBUG LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf] started OK.
+2019-03-03 20:49:59,570 pool-1-thread-1 DEBUG Stopping LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf]
+2019-03-03 20:49:59,571 pool-1-thread-1 DEBUG Stopping LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf]...
+2019-03-03 20:49:59,572 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=18b4aac2]
+2019-03-03 20:49:59,573 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=18b4aac2,component=StatusLogger]
+2019-03-03 20:49:59,573 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=18b4aac2,component=ContextSelector]
+2019-03-03 20:49:59,574 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=*'
+2019-03-03 20:49:59,574 pool-1-thread-1 TRACE Unregistering 2 MBeans: [org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=STDOUT, org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=DefaultConsole-2]
+2019-03-03 20:49:59,574 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=AsyncAppenders,name=*'
+2019-03-03 20:49:59,575 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=AsyncLoggerRingBuffer'
+2019-03-03 20:49:59,575 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=*,subtype=RingBuffer'
+2019-03-03 20:49:59,575 pool-1-thread-1 TRACE Stopping org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@589838eb...
+2019-03-03 20:49:59,576 pool-1-thread-1 TRACE PropertiesConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2019-03-03 20:49:59,576 pool-1-thread-1 TRACE PropertiesConfiguration stopping root LoggerConfig.
+2019-03-03 20:49:59,577 pool-1-thread-1 TRACE PropertiesConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2019-03-03 20:49:59,577 pool-1-thread-1 TRACE PropertiesConfiguration stopping remaining Appenders.
+2019-03-03 20:49:59,578 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false
+2019-03-03 20:49:59,578 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false, all resources released: true
+2019-03-03 20:49:59,578 pool-1-thread-1 DEBUG Appender STDOUT stopped with status true
+2019-03-03 20:49:59,579 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-2
+2019-03-03 20:49:59,579 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-2, all resources released: true
+2019-03-03 20:49:59,580 pool-1-thread-1 DEBUG Appender DefaultConsole-2 stopped with status true
+2019-03-03 20:49:59,580 pool-1-thread-1 TRACE PropertiesConfiguration stopped 2 remaining Appenders.
+2019-03-03 20:49:59,580 pool-1-thread-1 TRACE PropertiesConfiguration cleaning Appenders from 1 LoggerConfigs.
+2019-03-03 20:49:59,581 pool-1-thread-1 DEBUG Stopped org.apache.logging.log4j.core.config.properties.PropertiesConfiguration@589838eb OK
+2019-03-03 20:49:59,581 pool-1-thread-1 DEBUG Stopped LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@2f9f7dcf] with status true
